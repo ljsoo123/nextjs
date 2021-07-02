@@ -13,6 +13,9 @@ const Header = () => {
       <Link href="/about">
         <a style={marginRight}>소개</a>
       </Link>
+      <Link prefetch href="/ssr-test">
+        <a style={marginRight}>ssr-test</a>
+      </Link>
     </div>
   );
 };
